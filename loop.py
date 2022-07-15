@@ -5,3 +5,4 @@ while no<=max:
   
     print(no,no,end="")
     no+=1
+
