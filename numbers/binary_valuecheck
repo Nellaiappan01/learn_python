@@ -1,0 +1,10 @@
+#decimal to binary
+no = int(input("/Enter value "))
+binary=''
+while no>0:
+    rem = no%2
+    binary =str(rem)+ binary
+    no=no//2
+else:
+    print(binary)
+#binary to decimal
