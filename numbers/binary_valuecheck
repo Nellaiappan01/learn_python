@@ -1,10 +1,14 @@
 #decimal to binary
-no = int(input("/Enter value "))
+no = int(input("Decimal number: "))
 binary=''
 while no>0:
     rem = no%2
     binary =str(rem)+ binary
     no=no//2
 else:
-    print(binary)
+    print('The decimal conversion is:',binary)
+
 #binary to decimal
+no= input('Enter a Binary number:')
+dec_number= int(no,2)
+print('The decimal conversion is:', dec_number)
