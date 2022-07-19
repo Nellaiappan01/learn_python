@@ -99,3 +99,10 @@ for row in range(3,-1,-1):
         print('_',end=' ')
     print("*",end=' ')
     print()
+
+for row in range(3,-1,-1):
+    for col in range(row):
+        print(' ',end=' ')
+    for col in range(4-row):
+         print("*",end=' ')
+    print()
