@@ -69,3 +69,21 @@ while row>=0:#unwanted line
         print(row,end=' ')
     print()
     row-=1 #unwantedline
+
+
+row =5
+no=1
+for row in range(5,0,-1):
+    for  col in range(row):
+        print(no,end= " ")
+    print()
+    no+=1
+    #slice
+word = 'nellai'
+count= len(word)
+for row in range(count,0,-1):
+    for col in range(row):
+        print(word[col],end = '')
+    print()
+
+
