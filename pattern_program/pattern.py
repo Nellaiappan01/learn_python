@@ -87,3 +87,8 @@ for row in range(count,0,-1):
     print()
 
 
+row=1
+for row in range(1,6):
+    for col in range(row):
+        print('*',end=' ')
+    print()
