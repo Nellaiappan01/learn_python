@@ -7,7 +7,8 @@ def main():
 
 wb = wx.Book('vba.xlsx',password='pass')
 ws=wb.sheets('Sheet1')
-wc=ws.range('A10').value ="welcome home"
+wc=ws.range('A10','A9').value ="welcome home"
+
 
 print(wc)
 
