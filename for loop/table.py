@@ -14,3 +14,10 @@ for i in range(1,no+1):
     factorial=factorial*i
 else:
     print(factorial)
+
+no=int(input("enter any number"))
+factorial=1
+for i in range(1,no+5):
+    factorial=factorial*i
+else:
+    print(factorial)
